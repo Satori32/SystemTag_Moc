@@ -11,7 +11,7 @@ struct SystemTag {
 		double Version = 0.25;
 	} BasicInfo;
 	
-	std::tuple<std::vector<std::uint64_t>, std::uint64_t> ExtraInfo;//if you need the extention to info. yes you can count up to tuples count. but i am confuse.
+	std::tuple<std::vector<std::uint64_t>, std::uint64_t> ExtraInfo;//if you need the extention to info. yes you can count up to tuples element count. but i am confuse.
 
 };
 
